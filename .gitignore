@@ -1,3 +1,8 @@
 messages-db.tmproj
 *.log
 target
+.DS_Store
+.classpath
+.project
+.settings
+*.zip
