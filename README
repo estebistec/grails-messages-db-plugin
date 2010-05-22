@@ -1,0 +1,8 @@
+Store i18 messages in the database. An alternate messageSource bean is provided that utilizes this
+storage in providing messages via the message(...) tag. The primary benefit of this is that i18n
+messages can be managed without having to re-assemble your application WAR, as it is with the
+messages properties files. This plugin is based on a blog post by Graeme Rocher describing the
+simple implementation you find here. [1].
+
+[1] http://graemerocher.blogspot.com/2010/04/reading-i18n-messages-from-database.html
+
